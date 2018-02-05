@@ -1,0 +1,25 @@
+{
+    "name": "ronline/hello",
+    "description": "Simple Skeleton Laravel package",
+	"keywords": ["Laravel", "Skeleton"],
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Hurtik",
+            "email": "job@roman-online.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "Ronline\\Skeleton\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
