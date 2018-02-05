@@ -13,3 +13,6 @@ Now you can get the the pacakage content with:
 
     Skeleton::content();
 
+=======
+# skeleton
+Simple Laravel Skeleton Package
